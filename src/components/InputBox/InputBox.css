@@ -1,0 +1,45 @@
+.input-container {
+  background: linear-gradient(180deg, #307e6c, #2b996d);
+  max-width: 30rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 4px;
+  margin: 50px auto;
+}
+
+.input-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.input-row div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-row input {
+  border: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.5);
+  max-width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.input-row label {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 0.5px;
+}

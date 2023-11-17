@@ -1,0 +1,22 @@
+.table-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+}
+
+.table-container table {
+  border-spacing: 10px;
+}
+
+.table-container th {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.table-container td {
+  text-align: end;
+  padding: 10px;
+}
